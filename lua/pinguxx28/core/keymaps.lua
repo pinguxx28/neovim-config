@@ -8,7 +8,8 @@ keymap.set("n", "<leader>w", "<cmd>write<cr>", { desc = "Save current file" })
 keymap.set("n", "<leader>q", "<cmd>quit<cr>", { desc = "Quit current file" })
 
 keymap.set("n", "<leader>s", "<cmd>source %<cr>", { desc = "Source current file" })
-keymap.set("n", "<leader>e", "<cmd>Explore<cr>", { desc = "Open netrw" })
+-- Replaced by oil.nvim
+--keymap.set("n", "<leader>e", "<cmd>Explore<cr>", { desc = "Open netrw" })
 
 keymap.set("n", "<leader>n", "<cmd>tabnew<cr>", { desc = "Open new tab" })
 keymap.set("n", "<leader>c", "<cmd>tabclose<cr>", { desc = "Close current tab" })
