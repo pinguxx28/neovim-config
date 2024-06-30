@@ -11,6 +11,7 @@ opt.tabstop = 4			-- 4 spaces for tabs
 opt.shiftwidth = 4		-- 4 spaces for indent width
 opt.expandtab = false	-- Don't convert tabs to spaces
 opt.autoindent = true	-- Keep the current indent on newline
+opt.scrolloff = 8		-- Scroll when cursor is eight lines from screen top or bottom
 
 opt.wrap = false	-- Lines don't wrap
 
