@@ -6,5 +6,7 @@ return {
 			style = "darker",	-- Set variant
 			transparent = true
 		})
+
+		vim.cmd("colorscheme onedark")
 	end
 }
