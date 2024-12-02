@@ -7,6 +7,6 @@ return {
 			transparent = true
 		})
 
-		vim.cmd("colorscheme onedark")
+		--vim.cmd("colorscheme onedark")
 	end
 }

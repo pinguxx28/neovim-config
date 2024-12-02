@@ -12,10 +12,7 @@ return {
 			-- Languages to always be installed
 			ensure_installed = {
 				"lua",
-				"javascript",
-				"c",
-				"cpp",
-				"markdown"
+				"markdown",
 			},
 
 			-- Enable highlighting

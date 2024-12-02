@@ -13,12 +13,12 @@ return {
 			dim_inactive_windows = true,
 
 			styles = {
-				bold = true,	-- Enable bold fonts
+				bold = false,	-- Disable bold fonts
 				italic = false	-- Disable italic fonts
 			}
 		})
 
 		-- Actually set the colorscheme
-		--vim.cmd("colorscheme rose-pine")
+		-- vim.cmd("colorscheme rose-pine")
 	end
 }

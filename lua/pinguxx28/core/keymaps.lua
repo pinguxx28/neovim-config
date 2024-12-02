@@ -34,3 +34,9 @@ keymap.set("t", "<C-w><C-k>", "<cmd>wincmd k<cr>", { desc = "Move to top window"
 
 keymap.set("t", "<tab>", "<cmd>tabnext<cr>", { desc = "Go to next tab" })
 keymap.set("t", "<s-tab>", "<cmd>tabprev<cr>", { desc = "Go to previous tab" })
+
+-- Vertical movement center screen
+keymap.set("n", "<C-d>", "<C-d>zz")
+keymap.set("n", "<C-u>", "<C-u>zz")
+keymap.set("n", "n", "nzz")
+keymap.set("n", "N", "Nzz")
