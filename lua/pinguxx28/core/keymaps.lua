@@ -40,3 +40,24 @@ keymap.set("n", "<C-d>", "<C-d>zz")
 keymap.set("n", "<C-u>", "<C-u>zz")
 keymap.set("n", "n", "nzz")
 keymap.set("n", "N", "Nzz")
+
+-- Copy and paste
+-- keymap.set("v", "<leader>y", '"+y', { noremap = true, desc = "Copy to clipboard" })
+
+-- Copy and paste for ssh
+vim.g.clipboard = {
+    name = "osc52",
+    copy = {
+        ["+"] = function(lines)
+            require("osc52").copy(table.concat(lines, "\n"))
+        end,
+        ["*"] = function(lines)
+            require("osc52").copy(table.concat(lines, "\n"))
+        end,
+    },
+    paste = {
+        ["+"] = function() return {} end,
+        ["*"] = function() return {} end,
+    },
+}
+
