@@ -45,19 +45,19 @@ keymap.set("n", "N", "Nzz")
 -- keymap.set("v", "<leader>y", '"+y', { noremap = true, desc = "Copy to clipboard" })
 
 -- Copy and paste for ssh
-vim.g.clipboard = {
-    name = "osc52",
-    copy = {
-        ["+"] = function(lines)
-            require("osc52").copy(table.concat(lines, "\n"))
-        end,
-        ["*"] = function(lines)
-            require("osc52").copy(table.concat(lines, "\n"))
-        end,
-    },
-    paste = {
-        ["+"] = function() return {} end,
-        ["*"] = function() return {} end,
-    },
-}
-
+-- vim.g.clipboard = {
+--     name = "osc52",
+--     copy = {
+--         ["+"] = function(lines)
+--             require("osc52").copy(table.concat(lines, "\n"))
+--         end,
+--         ["*"] = function(lines)
+--             require("osc52").copy(table.concat(lines, "\n"))
+--         end,
+--     },
+--     paste = {
+--         ["+"] = function() return {} end,
+--         ["*"] = function() return {} end,
+--     },
+-- }
+--
