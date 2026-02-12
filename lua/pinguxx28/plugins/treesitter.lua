@@ -8,7 +8,7 @@ return {
 	build = { ":TSUpdate" },
 
 	config = function()
-		require("nvim-treesitter.configs").setup({
+		require("nvim-treesitter.config").setup({
 			-- Languages to always be installed
 			ensure_installed = {
 				"lua",
